@@ -6,5 +6,5 @@ net session >nul 2>&1
 if %errorlevel% neq 0 (
     :: Relaunch this script with PowerShell elevation
     powershell -Command "Start-Process '%command%' -Verb runAs"
-    exit /b 0
+    exit
 )
