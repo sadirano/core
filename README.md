@@ -7,8 +7,12 @@ Noir Core Utility Scripts is a collection of lightweight Windows batch scripts d
 ## Features
 
 - **adm**: Elevates privileges to allow administrative tasks.
+- **doskey.mac**: Doskey macros for common shortcuts (`cc` copies current directory, `q` exits).
 - **env**: Opens the Windows Environment Variables in Administrative mode.
-- **h**: Puts your system into hibernation.
+- **h**: Puts your system to sleep.
+- **hash**: Computes the file hash and copies it to the clipboard.
+- **hosts**: Opens the Windows hosts file in Notepad with administrative privileges.
+- **mk**: Creates a directory and immediately changes into it.
 - **restart**: Safely restarts Windows Explorer by stopping it, waiting for input, and then restoring it.
 
 ## Installation
