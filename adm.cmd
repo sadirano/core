@@ -8,7 +8,7 @@ shift
 set "args="
 :buildArgs
 if "%1"=="" goto doneArgs
-set "args=%args% %1
+set "args=%args% %1"
 shift
 goto buildArgs
 :doneArgs
