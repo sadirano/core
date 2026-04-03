@@ -1,2 +1,2 @@
 @echo off
-powershell -command (Get-FileHash %*).hash | clip
+powershell -command "(Get-FileHash '%~1').hash | clip"
